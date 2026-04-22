@@ -1,0 +1,12 @@
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cards{
+    width: 100vh;
+    height:400px;
+
+
