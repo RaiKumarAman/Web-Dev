@@ -21,3 +21,5 @@ let other=["steve", false, 70];
 console.log(other[0]);
 console.log(other[1]);
 console.log(other[2]);
+
+console.log(other[1]+2);
