@@ -12,6 +12,9 @@ user.isworthy=false;
 console.log(user.isworthy);
 
 console.log(user);
+console.log(Object.keys(user));
+console.log(Object.values(user));
+
 
 // Array
 let hero=["Ironman", "Thor", "Captain America"]

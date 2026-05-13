@@ -51,3 +51,19 @@ for(let i=0; i< city.length; i++){
     visitedCities.push(city[i]);    
 }
 console.log(visitedCities);
+
+let citiespopulation={
+    "London":890000,
+    "New York": 840000,
+    "Paris": 220000,
+    "Berlin": 350000
+};
+let citypopulation=[]
+for(let i in citiespopulation){
+    // console.log(citiespopulation[i]);
+    if (i==="Berlin"){
+        break;
+    }
+    citypopulation.push(citiespopulation[i]);
+}
+console.log(citypopulation);
