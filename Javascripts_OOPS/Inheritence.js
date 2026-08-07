@@ -16,3 +16,4 @@ class OTDAM extends OT{
 
 let otdam1=new OTDAM();
 console.log(otdam1.food());
+console.log(otdam1.work());
